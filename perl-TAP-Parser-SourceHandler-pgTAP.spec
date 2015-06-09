@@ -14,6 +14,9 @@ Requires:	perl(TAP::Parser::SourceHandler)
 Requires:	perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Stream TAP from pgTAP test scripts
 
 %prep
