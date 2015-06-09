@@ -44,3 +44,8 @@ AUTHOR_TESTING=1 ./Build test
 %{_mandir}/man1/pg_tapgen.1*
 
 %changelog
+* Tue Jun 09 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 3.30-1
+- Adapt for AL/LL
+- Add package support URL
+- Add `perl-TAP-Parser-SourceHandler-pgTAP.spec`
+- Import `TAP-Parser-SourceHandler-pgTAP-3.30.tar.gz`
