@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:		perl-TAP-Parser-SourceHandler-pgTAP
 Version:	3.30
-Release:	1%{?dist}
+Release:	1%{?_buildid}%{?dist}
 Summary:	Stream TAP from pgTAP test scripts
 License:	GPL+ or Artistic
 Group:		Development/Libraries
